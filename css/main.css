@@ -1,0 +1,104 @@
+/**, *::after, *::before {
+    box-sizing: inherit;
+}
+
+* {
+    box-sizing: border-box !important;
+}*/
+
+@font-face {
+    font-family: "Grandesign";
+    font-style: normal;
+    font-weight: 300;
+    src: url("fonts/Grandesign_Neue_Serif.ttf") format("truetype");
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #373737;
+    font-family: "Grandesign",Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.08rem;
+    margin-top: 0;
+}
+
+body {
+    color: #373737;
+    font-family: "Grandesign",Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+a, .link {
+    color: #0000FF;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.15s linear 0s;
+}
+
+.container {
+    margin: 0 auto;
+    justify-conten: center;
+    width: 65%;
+}
+
+.profile {
+    -moz-box-align: center;
+    align-items: center;
+    display: flex;
+}
+.profile-pic {
+    margin-right: 4rem;
+}
+.profile-title {
+  
+    font-size: 1.5rem;
+    line-height: 1rem;
+    margin-bottom: 0.5rem;
+}
+.profile-subtitle {
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.0rem;
+    margin-bottom: 0.2rem;
+}
+.profile-subtitle {
+    color: #878787;
+    margin-top: 0;
+}
+
+.home-page-profile {
+    border-bottom: 2px solid #e7ebee;
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+}
+
+.icons-list {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+}
+
+.icons-listitem {
+    flex: 0 0 33.33%;
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+    list-style: outside none none;
+    margin: 0 0 0.5rem;
+    padding: 0;
+}
+
+.icons-listitem a {
+    color: #373737;
+}
+
+.icons-listitem a:hover {
+    color: #0000FF;
+    text-decoration: none;
+}
+.icons-listitem i {
+    margin-right: 0.5rem;
+}
+
+
+
+
