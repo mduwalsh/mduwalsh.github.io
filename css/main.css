@@ -49,8 +49,7 @@ a, .link {
 .profile-pic {
     margin-right: 3rem;
 }
-.profile-title {
-  
+.profile-title {  
     font-size: 1.5rem;
     line-height: 1rem;
     margin-bottom: 0.5rem;
@@ -100,5 +99,37 @@ a, .link {
 }
 
 
+.header {   
+    align-items: center;
+    display: flex;
+    flex: 1 0 80%;
+}
+.header-sticky {
+    background-color: #fff;
+    border-bottom: 2px solid #e7ebee;
+}
+.header-pic {
+    margin: 0 2rem 0 0;
+}
+.header-text {
+    display: flex;
+    flex-direction: column;
+}
+.header-text-title-link {
+    color: #373737;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 2rem;
+}
+.header-text-title {
+    
+}
+.header-text-subtitle {  
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1.8rem;
+    margin: 0;
+}
 
 

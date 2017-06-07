@@ -1,49 +1,132 @@
 <html>
   <head>
-    <title>Mahendra Duwal Shrestha</title>
-    <link href="css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">    
+    <title>Projects</title>
+    <link href="../css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css">    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script type="text/javascript" src="../jquery/jquery.stickyPanel.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var stickyPanelOptions = {
+                topPadding: 0,
+                afterDetachCSSClass: "header-sticky",
+                savePanelSpace: true,
+                onDetached: null,
+                onReAttached: null,
+                parentSelector: null
+            };
+            // multiple panel example (you could also use the class ".stickypanel" to select both)
+            $("#idFixedHeader").stickyPanel(stickyPanelOptions);
+	});
+      </script>
   </head>
 
 
   <body>
     <div class="container">    
-      <section class="home-page-profile">
-	<div class="profile">
-	  <div class="profile-pic"> 
-	    <img alt="Mahendra Duwal Shrestha" src="images/mduwal.png" />
-	  </div>
-	  <div>
-	    <h3 class="profile-title"> Mahendra Duwal Shrestha </h3>
-	    <h4 class="profile-subtitle"> MS in Computer Science, University Of Tennessee, Knoxville
-	    <h4 class="profile-subtitle"> Software Engineer </h4>	
-	  </div>
+	<div class="header" id="idFixedHeader">
+	      <div class="header-pic">
+		<a href="https://mduwalsh.github.io">
+		  <img alt="Mahendra Duwal Shrestha" src="../images/mduwal.png" height="50px" />
+		</a>
+	      </div>
+	      <div class="header-text">
+		  <div>
+		    <a class="header-text-title-link" href="https://mduwalsh.github.io">
+		      Mahendra Duwal Shrestha
+		    </a>
+		  </div>
+		  <div>
+		    <h5 class="header-text-subtitle">Software Engineer</h5>
+		  </div>
+	      </div>
+	</div>     
+	
+	<section>
+	<div>
+	  <p>
+	      Hi, I am a software engineer, originally from Nepal, currently living in USA. I have worked in web application development using 
+	      C#.Net MVC and Grails. <!--During my graduate study at 
+	      <a href="http://www.eecs.utk.edu/">UTK</a>,-->
+	      I have worked on multiple projects on computational model simulations using C/C++. And at present, I am primarily interested in C/C++ programming.	      
+	  </p>
+	  <p>
+	      Have a look through my <a href="projects/index.html"> project portfolio </a>
+	  </p>
+	  <p>
+	      What I've been upto lately:	      
+	  </p>
+	  <ul>
+	    <li>
+	      Working for Dr. Sergey Gavrilets on two models (Multilevel model and Propaganda model) simulations and summarizing results into graphs
+	    </li>
+	     <li>
+	      Changing graph layouts of Propaganda model on previous simulations
+	    </li>
+	    <li>
+	      Updating project portfolio on this site
+	    </li>	   
+	  </ul>
 	</div>
       </section>
       <section>
 	<div>
 	  <p>
-	      Hi, I am software engineer originally from Nepal, currently living in USA. I have worked in web application development using 
-	      C#.Net MVC, Grails for 2 years and 7 months. During my graduate study at 
-	      <a href="http://www.eecs.utk.edu/">UTK</a>,
-	      I worked on multiple projects on model simulations using C/C++. So, at present I am primarily interested in C/C++ programming.	      
+	      Hi, I am a software engineer, originally from Nepal, currently living in USA. I have worked in web application development using 
+	      C#.Net MVC and Grails. <!--During my graduate study at 
+	      <a href="http://www.eecs.utk.edu/">UTK</a>,-->
+	      I have worked on multiple projects on computational model simulations using C/C++. And at present, I am primarily interested in C/C++ programming.	      
 	  </p>
 	  <p>
-	      Have a look through my project portfolio
+	      Have a look through my <a href="projects/index.html"> project portfolio </a>
 	  </p>
-	</div>
-      </section>
-      <section>
-	<div> 
-	  <ul class="icon-list">
-	  <li>
-	    <a href = ""> 
-	      <i> </i>
-	    </a>
-	  </li>
+	  <p>
+	      What I've been upto lately:	      
+	  </p>
+	  <ul>
+	    <li>
+	      Working for Dr. Sergey Gavrilets on two models (Multilevel model and Propaganda model) simulations and summarizing results into graphs
+	    </li>
+	     <li>
+	      Changing graph layouts of Propaganda model on previous simulations
+	    </li>
+	    <li>
+	      Updating project portfolio on this site
+	    </li>	   
 	  </ul>
 	</div>
       </section>
+      
+	<section>
+	    <div> 
+	      <ul class="icons-list">
+		<li class="icons-listitem">
+		  <a title="My email addressl" target="_blank" rel="nofollow" href="mailto:duwal.mahendra@gmail.com">
+		  <i class="fa fa-envelope" aria-hidden="true"></i>
+		  Email
+		  </a>
+		</li>
+		<li class="icons-listitem">
+		  <a title="My github profile" target="_blank" rel="nofollow" href="https://github.com/mduwalsh/">
+		  <i class="fa fa-github" aria-hidden="true"></i>
+		  Github
+		  </a>
+		</li>
+		<li class="icons-listitem">
+		  <a title="My LinkedIn profile" target="_blank" rel="nofollow" href="https://www.linkedin.com/in/mahendra-duwal-1b11bb73/">
+		  <i class="fa fa-linkedin" aria-hidden="true"></i>
+		  LinkedIn
+		  </a>
+		</li>
+		<li class="icons-listitem">
+		  <a title="Call me on Skype" target="_blank" rel="nofollow" href="skype:mahendra.duwal3">
+		  <i class="fa fa-skype" aria-hidden="true"></i>
+		  Skype
+		  </a>
+		</li>	    
+	      </ul>
+	    </div>	  
+	</section>
     </div>
   </body>
 </html>
