@@ -19,14 +19,11 @@
             // multiple panel example (you could also use the class ".stickypanel" to select both)
             $("#idFixedHeader").stickyPanel(stickyPanelOptions);
 	});
-    </script>
-    
-    
+    </script>    
   </head>
 
-
   <body>
-    <div class="container">    
+    <div class="project-container">    
 	<div class="header" id="idFixedHeader">
 	      <div class="header-pic">
 		<a href="https://mduwalsh.github.io">
@@ -46,44 +43,99 @@
 	</div>     
 	<div style="clear"><br/></div>
 	<div class="projectlist">
-	    <h2>Projects</h2>
+	    <h1>Projects</h1>
 	    <div class="project">		
 		<div class="project-title">
-		  <b>Collective Action Problem With Punishment</b>:  Jun, 2015 - Feb, 2016
+		  <span>Collective Action Problem With Propaganda</span> :  Jan, 2016 - on going
+		</div> 
+		<div class="project-desc">
+		  <p>
+		  Propaganda model by Dr. Sergey Gavrilets is two level hierarchial model with leader and commoners in a group. 
+		  The model tries to solve collective action problem with commoners making production efforts, 
+		  leaders making norm promoting (propaganda) effort, 
+		  collecting taxes from commoners and punishing commoners not making efforts.
+		  I am helping Dr. Gavrilets with simulation developing program in C++ and helping with analysis and development of the model.
+		  Graphs were plotted using gnuplot.
+		  </p>
+		  <i>>>>>Links will be added with permission<<<<</i>
+		</div> 
+	    </div>
+	    <div class="project">		
+		<div class="project-title">
+		  <span>Multi-level Collective Action Problem</span> :  Mar, 2016 - on going
 		</div>
 		<div class="project-desc">
 		  <p>
-		  Collective action problem with punishment model by Dr. Sergey Gavrilets tries to solve problem with coordination efforts and payoffs 
-		  with use of punishment in a group 
-		  with hierarchial system  through modeling and simulation. Simulation was event driven and time of event were chosen using 
+		  Multi-level collective action problem model by Dr. Sergey Gavrilets has three level hierarchy with chief in a polity, 
+		  each polity has groups,  each group has a leader and commoners. 
+		  The model tries to solve collective action problem with commoners making production efforts, leaders making coordination effort, 
+		  collecting taxes from commoners and punishing commoners not making efforts, and chief making coordination effort, collecting taxes from leaders, 
+		  distributing rewards to polity and punishing least efficient leaders.
+		  I am helping Dr. Gavrilets with simulation developing program in C++ and helping with analysis and development of the model.
+		  Graphs were plotted using gnuplot.
+		  </p>
+		  <i>>>>>Links will be added with permission<<<<</i>
+		</div> 
+	    </div>
+	    <div class="project">		
+		<div class="project-title">
+		  <span>Collective Action Problem With Punishment</span> :  Jun, 2015 - Feb, 2016
+		</div>
+		<div class="project-desc">
+		  <p>
+		  Collective action problem with punishment model by Dr. Sergey Gavrilets tries to solve problem with production efforts and payoffs 
+		  with use of punishment through modeling and simulation. Simulation was event driven and time of event were chosen using 
 		  Gillespie's algorithm. Model included collective action with punishment where every individual tries to punish others 
 		  and force others to contribute. Punishment was costly so foresight strategy was introduced to motivate individuals to punish 
 		  others by predicting and expecting benefit in return.		 
 		  I developed simulation program in C, tested and debugged the program, helped with analysis and development of the model.
 		  Graphs were plotted using gnuplot.
 		  </p>
-		  <a href="http://neko.bio.utk.edu/~mahendra/SA/pun.html"> Test 1 </a> 
-		  <a href="http://neko.bio.utk.edu/~mahendra/SA/pun/aggr.html"> Test 2 </a>
-		  <a href="http://neko.bio.utk.edu/~mahendra/SA/pun/wo_aggr.html"> Test 3 </a>
-		  <a href="http://neko.bio.utk.edu/~mahendra/SA/comp/comp.html"> Test 4 </a>
+		  <a href="http://neko.bio.utk.edu/~mahendra/SA/pun.html"> Simulation 1 </a> &nbsp;&nbsp;
+		  <a href="http://neko.bio.utk.edu/~mahendra/SA/pun/aggr.html"> Simulation 2 </a>&nbsp;&nbsp;
+		  <a href="http://neko.bio.utk.edu/~mahendra/SA/pun/wo_aggr.html"> Simulation 3 </a>&nbsp;&nbsp;
+		  <a href="http://neko.bio.utk.edu/~mahendra/SA/comp/comp.html"> Simulation 4 </a>
+		</div> 
+	    </div>
+	    <div class="project">
+	    
+		<div class="project-title">
+		  <span>Collective Action Problem</span> :  Oct, 2014 - May, 2015
+		</div>
+		<div class="project-desc">
+		  <p>
+		  Collective action problem model by Dr. Sergey Gavrilets tries to solve problem with production efforts and payoffs in a group 
+		  with hierarchial system through modeling and simulation. Simulation was agent based, and model included male and female 
+		  group members, migration, group production, group conflicts, competition (Us Vs Them game) and extinction, 
+		  and competition against nature (Us Vs Nature game).
+		  I developed simulation program in C, tested and debugged the program, wrote shell script to run multiple simulations in Linux 
+		  cluster with Torque resource manager. Results were summarized for analysis by plotting graphs using gnuplot script embedded in C.
+		  </p>
+		  <a href="http://neko.bio.utk.edu/~mahendra/CA/ca.html"> Simulation 1 </a> &nbsp;&nbsp;
+		  <a href="http://neko.bio.utk.edu/~mahendra/CA/param_nb/ca.html"> Simulation 2 </a>
 		</div> 
 	    </div>
 	    <div class="project">		
 		<div class="project-title">
-		  <b>Collective Action Problem</b>:  Oct, 2014 - May, 2015
+		  <span>COMPASS Plan Overview</span> :  Jan, 2012 - Feb, 2012
 		</div>
 		<div class="project-desc">
 		  <p>
-		  Collective action problem model by Dr. Sergey Gavrilets tries to solve problem with coordination efforts and payoffs in a group 
-		  with hierarchial system through modeling and simulation. Simulation was agent based, and model included male and female 
-		  group members, migration, group production, group conflicts, competition and extinction, and competition against nature.
-		  I developed simulation program in C, tested and debugged the program, wrote shell script to run multiple simulations in Linux 
-		  cluster with Torque resource manager. Results were summarized for analysis by plotting graphs using gnuplot script embedded in C.
+		  Collective action problem with punishment model by Dr. Sergey Gavrilets tries to solve problem with production efforts and payoffs 
+		  with use of punishment through modeling and simulation. Simulation was event driven and time of event were chosen using 
+		  Gillespie's algorithm. Model included collective action with punishment where every individual tries to punish others 
+		  and force others to contribute. Punishment was costly so foresight strategy was introduced to motivate individuals to punish 
+		  others by predicting and expecting benefit in return.		 
+		  I developed simulation program in C, tested and debugged the program, helped with analysis and development of the model.
+		  Graphs were plotted using gnuplot.
 		  </p>
-		  <a href="http://neko.bio.utk.edu/~mahendra/CA/ca.html"> Simulation result 1 </a> 
-		  <a href="http://neko.bio.utk.edu/~mahendra/CA/param_nb/ca.html"> Simulation result 2 </a>
+		  <a href="http://neko.bio.utk.edu/~mahendra/SA/pun.html"> Simulation 1 </a> &nbsp;&nbsp;
+		  <a href="http://neko.bio.utk.edu/~mahendra/SA/pun/aggr.html"> Simulation 2 </a>&nbsp;&nbsp;
+		  <a href="http://neko.bio.utk.edu/~mahendra/SA/pun/wo_aggr.html"> Simulation 3 </a>&nbsp;&nbsp;
+		  <a href="http://neko.bio.utk.edu/~mahendra/SA/comp/comp.html"> Simulation 4 </a>
 		</div> 
 	    </div>
+	    
 	</div>
 	
 	<section>

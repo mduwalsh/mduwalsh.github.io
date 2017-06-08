@@ -41,6 +41,12 @@ a, .link {
     width: 65%;
 }
 
+.project-container {
+    margin: 0 auto;
+    justify-conten: center;
+    width: 90%;
+}
+
 .profile {
     -moz-box-align: center;
     align-items: center;
@@ -131,5 +137,14 @@ a, .link {
     line-height: 1.8rem;
     margin: 0;
 }
-
-
+.project-desc p {
+    margin: 0;
+    padding: 0;
+}
+.project div{
+   margin-bottom:15px;
+}
+.project-title span {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
